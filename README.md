@@ -20,3 +20,8 @@ This is a simple YouTube app which uses the YouTube playlist api to fetch and li
 ```
 
 2. Open Xcode and go to file -> open -> [Your Folder]
+
+3. Get your API_KEY from [Google Console](https://console.cloud.google.com/) and add it in your project in the Config.xcconfig file.
+```bash
+API_KEY = [YOUR_API_KEY]
+```
