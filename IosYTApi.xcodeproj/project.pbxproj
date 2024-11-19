@@ -6,13 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E614947F2CEC7F410016C258 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = E614947E2CEC7F410016C258 /* YouTubePlayerKit */; };
+		E61494812CEC82570016C258 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E61494802CEC82570016C258 /* README.md */; };
+		E61494852CEC84860016C258 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E61494842CEC84860016C258 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E61494472CEC64450016C258 /* IosYTApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosYTApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61494802CEC82570016C258 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E61494842CEC84860016C258 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E614947A2CEC72560016C258 /* Exceptions for "IosYTApi" folder in "IosYTApi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E61494462CEC64450016C258 /* IosYTApi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E61494492CEC64450016C258 /* IosYTApi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E614947A2CEC72560016C258 /* Exceptions for "IosYTApi" folder in "IosYTApi" target */,
+			);
 			path = IosYTApi;
 			sourceTree = "<group>";
 		};
@@ -23,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E614947F2CEC7F410016C258 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +54,8 @@
 		E614943E2CEC64450016C258 = {
 			isa = PBXGroup;
 			children = (
+				E61494842CEC84860016C258 /* .gitignore */,
+				E61494802CEC82570016C258 /* README.md */,
 				E61494492CEC64450016C258 /* IosYTApi */,
 				E61494482CEC64450016C258 /* Products */,
 			);
@@ -65,6 +89,7 @@
 			);
 			name = IosYTApi;
 			packageProductDependencies = (
+				E614947E2CEC7F410016C258 /* YouTubePlayerKit */,
 			);
 			productName = IosYTApi;
 			productReference = E61494472CEC64450016C258 /* IosYTApi.app */;
@@ -94,6 +119,9 @@
 			);
 			mainGroup = E614943E2CEC64450016C258;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E614947D2CEC7F410016C258 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E61494482CEC64450016C258 /* Products */;
 			projectDirPath = "";
@@ -109,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61494852CEC84860016C258 /* .gitignore in Resources */,
+				E61494812CEC82570016C258 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +157,8 @@
 /* Begin XCBuildConfiguration section */
 		E61494532CEC64490016C258 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = E61494492CEC64450016C258 /* IosYTApi */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +222,8 @@
 		};
 		E61494542CEC64490016C258 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = E61494492CEC64450016C258 /* IosYTApi */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -254,6 +288,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IosYTApi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IosYTApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +317,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IosYTApi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IosYTApi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E614947D2CEC7F410016C258 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E614947E2CEC7F410016C258 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E614947D2CEC7F410016C258 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E614943F2CEC64450016C258 /* Project object */;
 }
